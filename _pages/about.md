@@ -1,34 +1,34 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Independent Researcher in Cosmology
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an independent researcher working on **cosmology**, **fast radio bursts (FRBs)**, and **large-scale structure**. My research focuses on developing statistical methods to extract cosmological information from astronomical surveys without relying on point redshift measurements.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## Current Work
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I recently developed **FwCC** (FRB–w Cross-Correlation), an end-to-end pipeline for measuring the angular cross-correlation between the extragalactic FRB dispersion measure field and foreground galaxy overdensity maps. The pipeline has been applied to **4,450 FRBs** from CHIME/FRB Catalogue 2 cross-correlated with **DESI DR1** tracers, yielding constraints on the dark energy equation-of-state parameter ($w = -1.47 \pm 0.43$) and the ionised baryon fraction ($f_{\rm IGM} = 0.69 \pm 0.06$) that are consistent with ΛCDM.
+
+The accompanying manuscript has been submitted to **The Astrophysical Journal** (September 2026), and the complete open-source analysis pipeline is publicly available on [GitHub](https://github.com/AntonPushkin260/fwcc-analysis) with a [Zenodo DOI](https://doi.org/10.5281/zenodo.22725659).
+
+## Research Interests
+
+- **Fast Radio Burst Cosmology**: Using FRBs as probes of dark energy and the cosmic baryon distribution
+- **Large-Scale Structure**: Cross-correlation methods, angular power spectra, and survey geometry
+- **Bayesian Inference**: MCMC methods, covariance estimation, and model selection
+- **Computational Astrophysics**: High-performance computing, HEALPix, and numerical methods
+
+## Education
+
+Currently a high school student (rising senior in summer 2027, graduating May 2028). Self-studying cosmology, statistical methods, and computational astrophysics.
