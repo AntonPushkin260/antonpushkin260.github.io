@@ -141,3 +141,29 @@
     requestAnimationFrame(draw);
   }
 })();
+
+/* ---------- 3. Atom cursor companion ---------- */
+(function () {
+  var style = document.createElement('style');
+  style.textContent =
+    '#cursor-atom{position:fixed;top:0;left:0;width:34px;height:34px;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);}' +
+    '#cursor-atom .nucleus{position:absolute;top:50%;left:50%;width:8px;height:8px;margin:-4px 0 0 -4px;background:#2c7bb6;border-radius:50%;box-shadow:0 0 8px rgba(44,123,182,.9);}' +
+    '#cursor-atom .orbit{position:absolute;top:50%;left:50%;width:30px;height:30px;margin:-15px 0 0 -15px;border:1px solid rgba(44,123,182,.25);border-radius:50%;animation:atom-spin 1.8s linear infinite;}' +
+    '#cursor-atom .orbit2{width:20px;height:20px;margin:-10px 0 0 -10px;animation-duration:1.2s;animation-direction:reverse;}' +
+    '#cursor-atom .electron{position:absolute;top:-3px;left:50%;width:6px;height:6px;margin-left:-3px;background:#d7191c;border-radius:50%;}' +
+    '@keyframes atom-spin{to{transform:rotate(360deg);}}';
+  document.head.appendChild(style);
+
+  var atom = document.createElement('div');
+  atom.id = 'cursor-atom';
+  atom.innerHTML =
+    '<span class="nucleus"></span>' +
+    '<span class="orbit"><span class="electron"></span></span>' +
+    '<span class="orbit orbit2"><span class="electron"></span></span>';
+  document.body.appendChild(atom);
+
+  document.addEventListener('mousemove', function (e) {
+    atom.style.left = e.clientX + 'px';
+    atom.style.top = e.clientY + 'px';
+  });
+})();
