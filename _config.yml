@@ -571,3 +571,7 @@ jsonresume:
   - languages
   - interests
   - references
+
+# Custom JavaScript files
+custom_js:
+  - /assets/js/easter-eggs.js
