@@ -12,7 +12,7 @@ nav_order: 3
 
 **Anton Pushkin**
 
-*Submitted to The Astrophysical Journal*, September 2026
+*Currently under review at The Astrophysical Journal* (submitted September 2026)
 
 **Abstract:** Fast radio bursts (FRBs) trace the ionised baryon content of the Universe through their dispersion measures (DMs), but inferring cosmological parameters from DM requires assumptions about the baryon distribution and the host-galaxy contribution. We present the FRB–w Cross-Correlation (FwCC) pipeline, a method for measuring the angular cross-correlation between the extragalactic FRB DM field and foreground galaxy overdensity maps without assigning point redshifts to individual bursts. Applied to 4,450 FRBs from CHIME/FRB Catalogue 2 and DESI DR1 tracers, the pipeline yields constraints on the dark energy equation-of-state parameter ($w = -1.47 \pm 0.43$) and the ionised baryon fraction ($f_{\rm IGM} = 0.69 \pm 0.06$) that are consistent with ΛCDM.
 
